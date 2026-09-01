@@ -2,18 +2,18 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Simulation & Control Systems Engineer | MATLAB/SIMULINK + Python | ADAS/AV | Model Based Design | IIT Madras
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    #<p>555 your office number</p>
+    <p>Mahindra and Mahindra</p>
+    <p>Chennai, Tamil Nadu 630004</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: False # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -26,9 +26,8 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+I'm Amal, a Lead Engineer at Mahindra & Mahindra, where I work on ADAS validation and algorithm development for driver-assistance systems — Autonomous Emergency Braking, Lane Keeping Assist, Emergency Lane Keeping, and Adaptive Cruise Control. My work spans two levels: validating these features across MIL/SIL/VIL environments using MATLAB/Simulink and SCANeR Studio, and getting into the algorithm layer itself tuning and modifying perception and control logic, building sensor fusion and tracking pipelines, and implementing state estimation (Kalman Filter/EKF) and sampling/search-based planning algorithms (A*, Dijkstra, RRT variants).
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Before this, I completed my M.S. in Mechanical Engineering at IIT Madras, where my thesis explored bistable piezomagnetoelastic MEMS energy harvesting under vortex-induced vibration, work that took me deep into nonlinear dynamics and multiphysics modeling.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I enjoy working at the intersection of theory and implementation — whether that's deriving an estimation algorithm on paper or getting it running reliably in simulation. 
