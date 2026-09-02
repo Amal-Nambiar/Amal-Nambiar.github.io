@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://Sherlock-Holmes-221B-droid.github.io/sitemap.xml
+Sitemap: https://amal-nambiar.github.io/sitemap.xml
