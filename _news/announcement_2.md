@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Next-Gen ADAS: Leveraging Multimodal Sensor Fusion for All-Weather Autonomy"
-date: 2026-09-23 12:31:00 +0530
+date: 2026-04-23 12:31:00 +0530
 inline: false
 related_posts: false
 ---
