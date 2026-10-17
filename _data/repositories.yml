@@ -1,14 +1,16 @@
-github_users:
-  - torvalds
-  - alshedivat
+﻿github_users:
+  - Amal-Nambiar
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  # ADAS and control-related repositories (selected from GitHub)
+  - Amal-Nambiar/ADAS_BATCH_VIEWER
+  - Amal-Nambiar/ADAS_MotionControl-PathPlanning
+  - Amal-Nambiar/Car2Car_AEB_Analytical
+  - Amal-Nambiar/FinalGapbetweenVehicle
+  - Amal-Nambiar/ISO-18571-Calculator
+  - Amal-Nambiar/MF4-Analyser
+  - Amal-Nambiar/OpenScenarioPlayer
+  # Personal site
+  - Amal-Nambiar/Amal-Nambiar.github.io
