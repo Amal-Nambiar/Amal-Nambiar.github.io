@@ -1,6 +1,6 @@
 ---
 layout: page
-title: research
+title: research work
 permalink: /research/
 description: MS research on nonlinear MEMS energy harvesting, vortex-induced vibration, bistability, and chaotic broadband response.
 nav: true
@@ -16,8 +16,6 @@ nav_order: 1
         <p>
           I focus on how magnetic nonlinearity, fluid-structure interaction, and piezoelectric conversion can be used to build resilient, broadband energy harvesting systems for real-world environments.
         </p>
-        <a href="/thesis/" class="btn btn-primary">Read the thesis summary</a>
-        <a href="/conclusion/" class="btn btn-outline-primary ml-2">Read the conclusion</a>
       </div>
     </div>
   </div>
@@ -27,8 +25,8 @@ nav_order: 1
   <div class="col-sm-4">
     <div class="card h-100">
       <div class="card-body">
-        <h4>Research focus</h4>
-        <p>Broadband MEMS energy harvesting using vortex-induced vibration, magnetic bistability, and nonlinear dynamics.</p>
+        <h4><a href="/thesis/">Thesis</a></h4>
+        <p>MS thesis on energy harvesting from vortex-induced vibration in MEMS devices using magnetic interaction.</p>
       </div>
     </div>
   </div>
@@ -36,8 +34,8 @@ nav_order: 1
   <div class="col-sm-4">
     <div class="card h-100">
       <div class="card-body">
-        <h4>Technical methods</h4>
-        <p>Reduced-order modeling, finite element analysis, bifurcation maps, phase portraits, and chaos analysis.</p>
+        <h4><a href="/energy-harvesting/">Energy harvesting</a></h4>
+        <p>Nonlinear MEMS energy harvesting, bistability, piezomagnetoelastic coupling, and flow-driven power generation.</p>
       </div>
     </div>
   </div>
@@ -45,8 +43,8 @@ nav_order: 1
   <div class="col-sm-4">
     <div class="card h-100">
       <div class="card-body">
-        <h4>Impact</h4>
-        <p>Energy harvesting for self-powered sensing, intelligent electronics, and low-power autonomous systems.</p>
+        <h4><a href="/conclusion/">Conclusion</a></h4>
+        <p>Key findings, practical significance, and future directions of the research work.</p>
       </div>
     </div>
   </div>
@@ -86,7 +84,7 @@ The research demonstrates that magnetic nonlinearity can significantly broaden t
 
 ## Related work
 
-- [MS thesis summary](/thesis/)
+- [Thesis summary](/thesis/)
 - [Energy harvesting and nonlinear dynamics](/energy-harvesting/)
 - [Research conclusion](/conclusion/)
 

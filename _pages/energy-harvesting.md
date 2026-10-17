@@ -3,7 +3,7 @@ layout: page
 title: energy harvesting
 permalink: /energy-harvesting/
 description: Nonlinear MEMS energy harvesting under vortex-induced vibration and magnetic interaction.
-nav: true
+nav: false
 nav_order: 4
 ---
 

@@ -3,7 +3,7 @@ layout: page
 title: conclusion
 permalink: /conclusion/
 description: Summary of the research conclusions on bistable piezomagnetoelastic energy harvesting, broadband response, and future work.
-nav: true
+nav: false
 nav_order: 3
 toc:
   sidebar: left
