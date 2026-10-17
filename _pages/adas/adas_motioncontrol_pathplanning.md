@@ -30,9 +30,56 @@ toc:
     <p>Repository: <a href="https://github.com/Amal-Nambiar/ADAS_MotionControl-PathPlanning" target="_blank">ADAS_MotionControl-PathPlanning</a></p>
   </div>
   <div class="col-sm-4 text-center">
-    <img src="https://github.com/Amal-Nambiar.png" class="img-fluid rounded shadow-sm" alt="repo avatar" />
-    <p class="mt-2"><small>Project visual — replace with screenshots or GIFs in `assets/adas/`</small></p>
+    <img src="/assets/ADAS/vehicle_controllers_comparison.gif" class="img-fluid rounded shadow-sm" alt="controllers comparison" />
+    <p class="mt-2"><small>Controller comparison and planner demos (GIFs)</small></p>
   </div>
 </div>
 
-<p>Screenshots and GIFs can be added to <code>assets/adas/</code> and referenced on this page. The project is organized into Motion Control, Path Planning, and Examples sections; additional subsections (Simulink details, data formats, test benches) can be added as needed.</p>
+## Controllers (lateral & longitudinal)
+
+The repository implements common lateral path-tracking and longitudinal speed controllers. Key modules and behavior:
+
+- **Stanley controller:** front-axle error based steering that combines heading error and cross-track error with a velocity-dependent gain. Good for low-speed path tracking and robust to small map noise.
+- **Pure Pursuit (geometric):** computes a lookahead point on the path and steers toward it. Simple and fast, tuned via lookahead distance and dynamic lookahead adaption.
+- **LQR:** linear-quadratic regulator applied on a linearized vehicle model for smooth setpoint tracking with explicit state- and input-weight tuning.
+- **MPC:** convex optimizer (cvxpy) that enforces vehicle dynamics and constraints over a finite horizon; trades off tracking error and control effort for predictive behavior.
+- **PID/Longitudinal loop:** cascaded velocity control (speed setpoint → acceleration) with feedforward/braking handling.
+
+Example GIF: controller comparison above shows lateral controllers running on the same reference path and highlights differences in overshoot and settling.
+
+## Path planning algorithms
+
+The planning suite includes sampling-based and graph-based planners used to generate reference paths for the controllers:
+
+- **A* and Dijkstra:** grid/graph search producing collision-free routes on a discrete occupancy map (A* uses a heuristic for speed).
+- **Hybrid A***: kinodynamic search over state-space with continuous orientation — suitable for car-like kinematics and narrow passages.
+- **State Lattice:** precomputed motion primitives tiled across the state space for fast feasible maneuvers with continuity in curvature.
+- **Frenet Optimal Planner:** constructs candidate lateral offsets in the Frenet frame and optimizes for smoothness, curvature, and obstacle clearance.
+
+Visual gallery (examples from the repo):
+
+<div class="row">
+  <div class="col-sm-6 mb-3"><img src="/assets/ADAS/AStar_stanley.gif" alt="AStar + Stanley" class="img-fluid rounded" /></div>
+  <div class="col-sm-6 mb-3"><img src="/assets/ADAS/Dijkstra_stanley.gif" alt="Dijkstra + Stanley" class="img-fluid rounded" /></div>
+  <div class="col-sm-6 mb-3"><img src="/assets/ADAS/Hybrid_AStar.gif" alt="Hybrid AStar" class="img-fluid rounded" /></div>
+  <div class="col-sm-6 mb-3"><img src="/assets/ADAS/State_Lattice_Stanley.gif" alt="State Lattice + Stanley" class="img-fluid rounded" /></div>
+</div>
+
+## Frenet planner
+
+The Frenet planner produces smooth longitudinal/lateral trajectories in a curvilinear coordinate frame and is useful for highway-style path following. Example simulation GIF:
+
+<p class="text-center"><img src="/assets/ADAS/frenet_simulation.gif" alt="Frenet simulation" class="img-fluid rounded" style="max-width:720px;"/></p>
+
+## How the pieces fit (practical notes)
+
+- Typical demo flow: generate a reference path with a planner (A*, Hybrid A*, Frenet), smooth and sample it, then feed the path to a lateral controller (Stanley / Pure Pursuit / MPC) and a longitudinal controller (PID / MPC speed) in the vehicle plant model.
+- Use the `Visualization/AllinOne.py` runner to reproduce the GIFs in `assets/ADAS/` — it packs plots and exports the animation frames used for the site demos.
+- Tuning tips: increase lookahead for smoother Pure Pursuit response; tune LQR weights for desired damping; for MPC, shorten horizon for faster solve times and add soft constraints to improve robustness.
+
+## Sources & references
+
+Repository: <a href="https://github.com/Amal-Nambiar/ADAS_MotionControl-PathPlanning" target="_blank">ADAS_MotionControl-PathPlanning</a>
+
+If you want, I can extract specific README sections or short code excerpts (Stanley, MPC setup, Hybrid A* heuristics) into collapsible subsections on this page.
+
