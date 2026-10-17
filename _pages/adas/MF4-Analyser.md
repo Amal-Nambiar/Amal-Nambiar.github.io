@@ -22,6 +22,6 @@ nav: false
   </div>
   <div class="col-sm-4 text-center">
     <img src="https://github.com/Amal-Nambiar.png" class="img-fluid rounded shadow-sm" alt="repo avatar" />
-    <p class="mt-2"><small>Add sample plots/GIFs under `assets/adas/` to replace this image.</small></p>
+    <p class="mt-2"><small>Sample plots or GIFs can be added to <code>assets/adas/</code> and referenced here.</small></p>
   </div>
 </div>

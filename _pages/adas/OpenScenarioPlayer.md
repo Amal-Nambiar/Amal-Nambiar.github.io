@@ -15,5 +15,6 @@ nav: false
   </div>
   <div class="col-sm-4 text-center">
     <img src="https://github.com/Amal-Nambiar.png" class="img-fluid rounded shadow-sm" alt="repo avatar" />
+    <p class="mt-2"><small>Add screenshots or GIFs to <code>assets/adas/</code> to illustrate playback and integrations.</small></p>
   </div>
 </div>

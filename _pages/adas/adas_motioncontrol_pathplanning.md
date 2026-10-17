@@ -35,8 +35,4 @@ toc:
   </div>
 </div>
 
----
-
-<div class="alert alert-secondary" role="alert">
-  <strong>Subdivide:</strong> I split this project into Motion Control, Path Planning, Examples. Tell me if you want additional sections (e.g., Simulink details, data formats, test benches) and I’ll add them.
-</div>
+<p>Screenshots and GIFs can be added to <code>assets/adas/</code> and referenced on this page. The project is organized into Motion Control, Path Planning, and Examples sections; additional subsections (Simulink details, data formats, test benches) can be added as needed.</p>
