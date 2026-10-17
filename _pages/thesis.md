@@ -4,7 +4,7 @@ title: thesis
 permalink: /thesis/
 description: Master's thesis summary on bistable piezomagnetoelastic MEMS energy harvesting under vortex-induced vibration.
 nav: true
-nav_order: 3
+nav_order: 2
 toc:
   sidebar: left
 ---
