@@ -83,3 +83,39 @@ Repository: <a href="https://github.com/Amal-Nambiar/ADAS_MotionControl-PathPlan
 
 If you want, I can extract specific README sections or short code excerpts (Stanley, MPC setup, Hybrid A* heuristics) into collapsible subsections on this page.
 
+---
+
+## Per-demo technical notes
+
+### A* + Stanley (AStar_stanley.gif)
+- Inputs: grid occupancy or graph, start/goal nodes, heuristic (Euclidean/Manhattan); vehicle initial pose and velocity for the tracker.
+- Outputs: discrete path (sequence of waypoints) passed to Stanley for lateral tracking; controller steering commands over time.
+- Tuning knobs: A* heuristic weight (affects optimality vs speed), grid resolution; Stanley gain and velocity scaling for cross-track correction.
+
+### Dijkstra + Stanley (Dijkstra_stanley.gif)
+- Inputs: full graph with uniform edge costs, start/goal, same tracking inputs as above.
+- Outputs: cost-optimal path on the graph; steering traces and lateral error plots from the Stanley controller.
+- Tuning knobs: graph connectivity and cost function; Stanley tuning for responsiveness vs chatter.
+
+### Hybrid A* (Hybrid_AStar.gif)
+- Inputs: continuous state-space (x,y,yaw), vehicle kinematic model, obstacle map, motion primitives or steering discretization.
+- Outputs: kinematically-feasible path that respects nonholonomic constraints; a sequence of curvature/steering setpoints.
+- Tuning knobs: motion-primitive granularity, steering discretization, search heuristic (admissible vs weighted), collision-check resolution.
+
+### State Lattice + Stanley (State_Lattice_Stanley.gif)
+- Inputs: precomputed motion primitives, state lattice resolution, initial state and goal corridor.
+- Outputs: sequence of primitives forming a feasible path; smooth curvature profile fed to controller.
+- Tuning knobs: primitive length/curvature set, lattice spacing, cost weights for smoothness vs clearance.
+
+### Frenet simulation (frenet_simulation.gif)
+- Inputs: reference centerline, longitudinal speed profile, obstacle candidate lanes in Frenet frame.
+- Outputs: optimized lateral-lon trajectories (s, d) converted back to (x,y) for tracking.
+- Tuning knobs: lateral vs longitudinal cost weights, sampling density of candidate offsets, curvature/jerk penalties.
+
+### Controller comparison (vehicle_controllers_comparison.gif)
+- Inputs: single reference path and identical vehicle initial conditions for each controller.
+- Outputs: comparative steering, lateral error, and speed traces that reveal overshoot, settling, and tracking stability.
+- Tuning knobs: per-controller parameters (lookahead, gains, LQR weights, MPC horizon/weights), sampling frequency, vehicle model fidelity.
+
+Each GIF in `/assets/ADAS/` maps to a runner in `Visualization/` that reproduces the scenario and exports frames. If you want, I will add collapsible code snippets showing the Stanley controller core loop, MPC objective construction, and Hybrid A* neighbor expansion next.
+
