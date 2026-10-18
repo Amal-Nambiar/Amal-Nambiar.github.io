@@ -80,9 +80,10 @@ cv:
         issuer: "Specialized training"
         date: "2024-01-01"
 
-      - name: "Applied Control Systems for Autonomous Cars: Math + PID + MPC"
+      - name: "Applied Control Systems for Autonomous Cars - Math + PID + MPC"
         issuer: "Specialized training"
         date: "2024-01-01"
+
 
     skills:
       - name: "Path Planning & Localization"
