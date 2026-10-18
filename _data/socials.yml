@@ -1,16 +1,16 @@
-# this file contains the social media links and usernames of the author
-# the socials will be displayed in the order they are defined here
-# for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
-cv_pdf: /assets/pdf/Amal_Nambiar_Resume.pdf # path to your CV PDF file
-email: amalnambiar349@gmail.com # your email address
-inspirehep_id: https://www.linkedin.com/in/amal-nambiar/ # Inspire HEP author ID
-# rss_icon: true # comment this line to hide the RSS icon
-# scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
-# wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
-# whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
+# This file contains site-level social and CV settings used by the starter.
+# Edit only the values below; keep comments for optional fields.
 
-# If you want to include your Github link using custom_social, uncomment the block below:
+cv_pdf: /assets/pdf/Amal_Nambiar_Resume.pdf # path to your CV PDF file
+email: amalnambiar349@gmail.com # author email
+
+# Optional IDs — set if you use these services. Leave blank if not applicable.
+inspirehep_id: ""
+rss_icon: true # comment this line to hide the RSS icon
+scholar_userid: ""
+
+# If you need a custom social icon/link, uncomment and update below:
 # custom_social:
-#   logo: fa-brands fa-github
-#   title: GitHub
-   url: https://github.com/Amal-Nambiar
+#   logo: https://example.com/path/to/logo.png
+#   title: Custom Social
+#   url: https://example.com/
