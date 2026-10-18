@@ -3,11 +3,13 @@
 
 cv_pdf: /assets/pdf/Amal_Nambiar_Resume.pdf # path to your CV PDF file
 email: amalnambiar349@gmail.com # author email
+linkedin_username: amal-nambiar
+github_username: Amal-Nambiar
+rss_icon: true # comment this line to hide the RSS icon
+scholar_userid: ""
 
 # Optional IDs — set if you use these services. Leave blank if not applicable.
 inspirehep_id: ""
-rss_icon: true # comment this line to hide the RSS icon
-scholar_userid: ""
 
 # If you need a custom social icon/link, uncomment and update below:
 # custom_social:
