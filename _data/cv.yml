@@ -5,20 +5,17 @@ cv:
   location: "Chennai, Tamil Nadu, India"
   image: ""
   summary: "Controls & Simulation Engineer with 4+ years of experience validating closed-loop ADAS behavior for AEB, Lane Keeping, and Adaptive Cruise Control using MATLAB/Simulink, SCANeR Studio, and model-based design."
-
   social_networks:
     - network: "LinkedIn"
       username: "amal-nambiar"
     - network: "GitHub"
       username: "Amal-Nambiar"
-
   address:
     street: "Chennai"
     city: "Chennai"
     region: "Tamil Nadu"
     postalCode: "600000"
     countryCode: "IN"
-
   sections:
     education:
       - institution: "Indian Institute of Technology Madras"
@@ -31,7 +28,6 @@ cv:
         highlights:
           - "Research on nonlinear dynamical systems, time-series analysis, phase-plane analysis, and numerical optimization."
           - "Presented findings at the European Nonlinear Oscillation Conference (ENOC), Lyon, France, 2022."
-
       - institution: "Sardar Vallabhbhai Institute of Technology, Vasad"
         location: "Vasad, Gujarat, India"
         area: "Mechanical Engineering"
@@ -41,7 +37,6 @@ cv:
         score: "CGPA 8.6"
         highlights:
           - "Built a strong foundation in mechanics, thermal systems, design, and optimization."
-
     experience:
       - company: "Mahindra & Mahindra"
         position: "Lead Engineer"
@@ -56,7 +51,6 @@ cv:
           - "Correlated real-world vehicle trajectory and control behavior with simulation to close validation gaps and improve model accuracy."
           - "Developed Python-based automation for ISO 18571 signal correlation, KPI extraction, and simulation test analytics."
           - "Performed SIL, HIL, and MIL validation across the V-model lifecycle while aligning with ISO 26262 and ASPICE expectations."
-
       - company: "IIT Madras"
         position: "Research Scholar"
         location: "Chennai, Tamil Nadu, India"
@@ -66,101 +60,86 @@ cv:
         highlights:
           - "Studied nonlinear MEMS energy harvesting systems with time-series and phase-plane analysis."
           - "Investigated system behavior under coupled electromechanical dynamics and optimization-driven parameter studies."
-
     certifications:
       - name: "ISO 26262 Functional Safety Overview"
         issuer: "Self-paced / industry training"
         date: "2024-01-01"
-
       - name: "Advanced Driver Assistance Systems (ADAS)"
         issuer: "Industry / specialized training"
         date: "2024-01-01"
-
       - name: "Kalman Filtering & Sensor Fusion (KF/EKF, Data Fusion)"
         issuer: "Specialized training"
         date: "2024-01-01"
-
       - name: "Applied Control Systems for Autonomous Cars: Math + PID + MPC"
         issuer: "Specialized training"
         date: "2024-01-01"
-
     skills:
       - name: "Path Planning & Localization"
         level: "Working Knowledge"
         icon: "fa-solid fa-route"
-        keywords: 
+        keywords:
           - "Dijkstra"
           - "A*"
           - "RRT"
           - "SLAM"
-
       - name: "Control & Trajectory Tracking"
         level: "Advanced"
         icon: "fa-solid fa-car-side"
-        keywords: 
+        keywords:
           - "MATLAB/Simulink"
           - "Stateflow"
           - "PID"
           - "MPC concepts"
-
       - name: "State Estimation & Sensor Fusion"
         level: "Advanced"
         icon: "fa-solid fa-satellite-dish"
-        keywords: 
+        keywords:
           - "Kalman Filter"
           - "Extended Kalman Filter"
           - "Particle Filter"
           - "Radar-Camera Fusion"
-
       - name: "Simulation & Scenario Testing"
         level: "Advanced"
         icon: "fa-solid fa-microchip"
-        keywords: 
+        keywords:
           - "SCANeR Studio"
           - "Closed-loop Virtual Simulation"
           - "Scenario-based Testing"
-
       - name: "Programming"
         level: "Advanced"
         icon: "fa-solid fa-code"
-        keywords: 
+        keywords:
           - "Python"
           - "C++"
           - "MATLAB"
-
       - name: "Testing & Process"
         level: "Advanced"
         icon: "fa-solid fa-shield-heart"
-        keywords: 
+        keywords:
           - "SIL"
           - "HIL"
           - "MIL"
           - "V-model / MBD lifecycle"
           - "ISO 26262"
           - "ASPICE"
-
     languages:
       - name: "English"
         summary: "Professional / Fluent"
-
       - name: "Malayalam"
         summary: "Native"
-
       - name: "Tamil"
         summary: "Professional working proficiency"
-
     interests:
       - name: "ADAS & Autonomous Systems"
         icon: "fa-solid fa-robot"
-        keywords: 
+        keywords:
           - "Controls"
           - "validation"
           - "sensor fusion"
           - "virtual proving grounds"
-
       - name: "Nonlinear Systems"
         icon: "fa-solid fa-wave-square"
-        keywords: 
+        keywords:
           - "Dynamics"
           - "estimation"
           - "optimization"
