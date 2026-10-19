@@ -1,154 +1,135 @@
 cv:
-  name: Amal Nambiar
-  label: Controls & Simulation Engineer
-  email: amalnambiar349@gmail.com
-  location: Chennai, Tamil Nadu, India
+  name: "Amal Nambiar"
+  label: "Controls & Simulation Engineer"
+  email: "amalnambiar349@gmail.com"
+  location: "Chennai, Tamil Nadu, India"
   image: ""
-  summary: Controls & Simulation Engineer with 4+ years of experience validating
- closed-loop ADAS behavior for AEB, Lane Keeping, and Adaptive Cruise Control us
- ing MATLAB/Simulink, SCANeR Studio, and model-based design
+  summary: "Controls & Simulation Engineer with 4+ years of experience validating closed-loop ADAS behavior for AEB, Lane Keeping, and Adaptive Cruise Control using MATLAB/Simulink, SCANeR Studio, and model-based design."
 
   social_networks:
-    - network: LinkedIn
-      username: amal-nambiar
-    - network: GitHub
-      username: Amal-Nambiar
+    - network: "LinkedIn"
+      username: "amal-nambiar"
+    - network: "GitHub"
+      username: "Amal-Nambiar"
 
   address:
-    street: Chennai
-    city: Chennai
-    region: Tamil Nadu
+    street: "Chennai"
+    city: "Chennai"
+    region: "Tamil Nadu"
     postalCode: "600000"
-    countryCode: IN
+    countryCode: "IN"
 
   sections:
-    Education:
-      - institution: Indian Institute of Technology Madras
-        location: Chennai, Tamil Nadu, India
-        area: Mechanical Engineering
-        studyType: M.S.
+    education:
+      - institution: "Indian Institute of Technology Madras"
+        location: "Chennai, Tamil Nadu, India"
+        area: "Mechanical Engineering"
+        studyType: "M.S."
         start_date: 2019
         end_date: 2022
         score: "CGPA 8.6"
         highlights:
-          - Research on nonlinear dynamical systems, time-series analysis, phase
--plane analysis, and numerical optimization.
-          - Presented findings at the European Nonlinear Oscillation Conference 
-(ENOC), Lyon, France, 2022.
+          - "Research on nonlinear dynamical systems, time-series analysis, phase-plane analysis, and numerical optimization."
+          - "Presented findings at the European Nonlinear Oscillation Conference (ENOC), Lyon, France, 2022."
 
-      - institution: Sardar Vallabhbhai Institute of Technology, Vasad
-        location: Vasad, Gujarat, India
-        area: Mechanical Engineering
-        studyType: B.E.
+      - institution: "Sardar Vallabhbhai Institute of Technology, Vasad"
+        location: "Vasad, Gujarat, India"
+        area: "Mechanical Engineering"
+        studyType: "B.E."
         start_date: 2012
         end_date: 2016
         score: "CGPA 8.6"
         highlights:
-          - Built a strong foundation in mechanics, thermal systems, design, and
- optimization.
+          - "Built a strong foundation in mechanics, thermal systems, design, and optimization."
 
-    Experience:
-      - company: Mahindra & Mahindra
-        position: Lead Engineer
-        location: Chennai, Tamil Nadu, India
+    experience:
+      - company: "Mahindra & Mahindra"
+        position: "Lead Engineer"
+        location: "Chennai, Tamil Nadu, India"
         start_date: 2022-08-01
-        end_date: Present
-        summary: Validate and develop ADAS features through MIL/SIL/VIL and vehi
-cle-level testing, with a focus on closed-loop control, calibration, and signal-
--level debugging.
+        end_date: "Present"
+        summary: "Validate and develop ADAS features through MIL/SIL/VIL and vehicle-level testing, with a focus on closed-loop control, calibration, and signal-level debugging."
         highlights:
-          - Validated closed-loop control logic for Lane Keeping Assist and Adap
-tive Cruise Control in MATLAB/Simulink and Stateflow.
-          - Built scenario-based simulation environments in SCANeR Studio for pe
-rception and control algorithm testing across varied traffic and environment con
-ditions.
-          - Applied Kalman Filter, EKF, and Particle Filter for radar-camera sen
-sor fusion and state estimation.
-          - Correlated real-world vehicle trajectory and control behavior with s
-imulation to close validation gaps and improve model accuracy.
-          - Developed Python-based automation for ISO 18571 signal correlation, 
-KPI extraction, and simulation test analytics.
-          - Performed SIL, HIL, and MIL validation across the V-model lifecycle 
-while aligning with ISO 26262 and ASPICE expectations.
+          - "Validated closed-loop control logic for Lane Keeping Assist and Adaptive Cruise Control in MATLAB/Simulink and Stateflow."
+          - "Built scenario-based simulation environments in SCANeR Studio for perception and control algorithm testing across varied traffic and environment conditions."
+          - "Applied Kalman Filter, EKF, and Particle Filter for radar-camera sensor fusion and state estimation."
+          - "Correlated real-world vehicle trajectory and control behavior with simulation to close validation gaps and improve model accuracy."
+          - "Developed Python-based automation for ISO 18571 signal correlation, KPI extraction, and simulation test analytics."
+          - "Performed SIL, HIL, and MIL validation across the V-model lifecycle while aligning with ISO 26262 and ASPICE expectations."
 
-      - company: IIT Madras
-        position: Research Scholar
-        location: Chennai, Tamil Nadu, India
+      - company: "IIT Madras"
+        position: "Research Scholar"
+        location: "Chennai, Tamil Nadu, India"
         start_date: 2019-01-01
         end_date: 2022-06-30
-        summary: Modeled nonlinear dynamical systems for energy harvesting resea
-rch using MATLAB and numerical optimization methods.
+        summary: "Modeled nonlinear dynamical systems for energy harvesting research using MATLAB and numerical optimization methods."
         highlights:
-          - Studied nonlinear MEMS energy harvesting systems with time-series an
-d phase-plane analysis.
-          - Investigated system behavior under coupled electromechanical dynamic
-s and optimization-driven parameter studies.
+          - "Studied nonlinear MEMS energy harvesting systems with time-series and phase-plane analysis."
+          - "Investigated system behavior under coupled electromechanical dynamics and optimization-driven parameter studies."
 
-    Certifications:
-      - name: ISO 26262 Functional Safety Overview
-        issuer: Self-paced / industry training
+    certifications:
+      - name: "ISO 26262 Functional Safety Overview"
+        issuer: "Self-paced / industry training"
         date: 2024-01-01
 
-      - name: Advanced Driver Assistance Systems (ADAS)
-        issuer: Industry / specialized training
+      - name: "Advanced Driver Assistance Systems (ADAS)"
+        issuer: "Industry / specialized training"
         date: 2024-01-01
 
-      - name: Kalman Filtering & Sensor Fusion (KF/EKF, Data Fusion)
-        issuer: Specialized training
+      - name: "Kalman Filtering & Sensor Fusion (KF/EKF, Data Fusion)"
+        issuer: "Specialized training"
         date: 2024-01-01
 
-      - name: Applied Control Systems for Autonomous Cars: Math + PID + MPC
-        issuer: Specialized training
+      - name: "Applied Control Systems for Autonomous Cars: Math + PID + MPC"
+        issuer: "Specialized training"
         date: 2024-01-01
 
-    Skills:
-      - name: Path Planning & Localization
-        level: Working Knowledge
-        icon: fa-solid fa-route
+    skills:
+      - name: "Path Planning & Localization"
+        level: "Working Knowledge"
+        icon: "fa-solid fa-route"
         keywords: "Dijkstra, A*, RRT, SLAM"
 
-      - name: Control & Trajectory Tracking
-        level: Advanced
-        icon: fa-solid fa-car-side
+      - name: "Control & Trajectory Tracking"
+        level: "Advanced"
+        icon: "fa-solid fa-car-side"
         keywords: "MATLAB/Simulink, Stateflow, PID, MPC concepts"
 
-      - name: State Estimation & Sensor Fusion
-        level: Advanced
-        icon: fa-solid fa-satellite-dish
-        keywords: "Kalman Filter, Extended Kalman Filter, Particle Filter, Radar
--Camera Fusion"
+      - name: "State Estimation & Sensor Fusion"
+        level: "Advanced"
+        icon: "fa-solid fa-satellite-dish"
+        keywords: "Kalman Filter, Extended Kalman Filter, Particle Filter, Radar-Camera Fusion"
 
-      - name: Simulation & Scenario Testing
-        level: Advanced
-        icon: fa-solid fa-microchip
-        keywords: "SCANeR Studio, Closed-loop Virtual Simulation, Scenario-based
- Testing"
+      - name: "Simulation & Scenario Testing"
+        level: "Advanced"
+        icon: "fa-solid fa-microchip"
+        keywords: "SCANeR Studio, Closed-loop Virtual Simulation, Scenario-based Testing"
 
-      - name: Programming
-        level: Advanced
-        icon: fa-solid fa-code
-        keywords: "Python, C++ (general), MATLAB"
+      - name: "Programming"
+        level: "Advanced"
+        icon: "fa-solid fa-code"
+        keywords: "Python, C++, MATLAB"
 
-      - name: Testing & Process
-        level: Advanced
-        icon: fa-solid fa-shield-heart
+      - name: "Testing & Process"
+        level: "Advanced"
+        icon: "fa-solid fa-shield-heart"
         keywords: "SIL, HIL, MIL, V-model / MBD lifecycle, ISO 26262, ASPICE"
 
-    Languages:
-      - name: English
+    languages:
+      - name: "English"
         summary: "Professional / Fluent"
 
-      - name: Malayalam
+      - name: "Malayalam"
         summary: "Native"
 
-      - name: Tamil
+      - name: "Tamil"
         summary: "Professional working proficiency"
 
-    Interests:
-      - name: ADAS & Autonomous Systems
-        icon: fa-solid fa-robot
+    interests:
+      - name: "ADAS & Autonomous Systems"
+        icon: "fa-solid fa-robot"
         keywords: "Controls, validation, sensor fusion, virtual proving grounds"
 
-      - name: Nonlinear Systems
-        icon: fa-solid fa-wave-square
+      - name: "Nonlinear Systems"
+        icon: "fa-solid fa-wave-square"
         keywords: "Dynamics, estimation, optimization, simulation"
