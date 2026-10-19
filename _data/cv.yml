@@ -25,8 +25,8 @@ cv:
         location: "Chennai, Tamil Nadu, India"
         area: "Mechanical Engineering"
         studyType: "M.S."
-        start_date: 2019
-        end_date: 2022
+        startDate: "2019"
+        endDate: "2022"
         score: "CGPA 8.6"
         highlights:
           - "Research on nonlinear dynamical systems, time-series analysis, phase-plane analysis, and numerical optimization."
@@ -36,8 +36,8 @@ cv:
         location: "Vasad, Gujarat, India"
         area: "Mechanical Engineering"
         studyType: "B.E."
-        start_date: 2012
-        end_date: 2016
+        startDate: "2012"
+        endDate: "2016"
         score: "CGPA 8.6"
         highlights:
           - "Built a strong foundation in mechanics, thermal systems, design, and optimization."
@@ -46,8 +46,8 @@ cv:
       - company: "Mahindra & Mahindra"
         position: "Lead Engineer"
         location: "Chennai, Tamil Nadu, India"
-        start_date: 2022-08-01
-        end_date: "Present"
+        startDate: "2022-08-01"
+        endDate: "Present"
         summary: "Validate and develop ADAS features through MIL/SIL/VIL and vehicle-level testing, with a focus on closed-loop control, calibration, and signal-level debugging."
         highlights:
           - "Validated closed-loop control logic for Lane Keeping Assist and Adaptive Cruise Control in MATLAB/Simulink and Stateflow."
@@ -60,8 +60,8 @@ cv:
       - company: "IIT Madras"
         position: "Research Scholar"
         location: "Chennai, Tamil Nadu, India"
-        start_date: 2019-01-01
-        end_date: 2022-06-30
+        startDate: "2019-01-01"
+        endDate: "2022-06-30"
         summary: "Modeled nonlinear dynamical systems for energy harvesting research using MATLAB and numerical optimization methods."
         highlights:
           - "Studied nonlinear MEMS energy harvesting systems with time-series and phase-plane analysis."
@@ -70,50 +70,74 @@ cv:
     certifications:
       - name: "ISO 26262 Functional Safety Overview"
         issuer: "Self-paced / industry training"
-        date: 2024-01-01
+        date: "2024-01-01"
 
       - name: "Advanced Driver Assistance Systems (ADAS)"
         issuer: "Industry / specialized training"
-        date: 2024-01-01
+        date: "2024-01-01"
 
       - name: "Kalman Filtering & Sensor Fusion (KF/EKF, Data Fusion)"
         issuer: "Specialized training"
-        date: 2024-01-01
+        date: "2024-01-01"
 
       - name: "Applied Control Systems for Autonomous Cars: Math + PID + MPC"
         issuer: "Specialized training"
-        date: 2024-01-01
+        date: "2024-01-01"
 
     skills:
       - name: "Path Planning & Localization"
         level: "Working Knowledge"
         icon: "fa-solid fa-route"
-        keywords: "Dijkstra, A*, RRT, SLAM"
+        keywords: 
+          - "Dijkstra"
+          - "A*"
+          - "RRT"
+          - "SLAM"
 
       - name: "Control & Trajectory Tracking"
         level: "Advanced"
         icon: "fa-solid fa-car-side"
-        keywords: "MATLAB/Simulink, Stateflow, PID, MPC concepts"
+        keywords: 
+          - "MATLAB/Simulink"
+          - "Stateflow"
+          - "PID"
+          - "MPC concepts"
 
       - name: "State Estimation & Sensor Fusion"
         level: "Advanced"
         icon: "fa-solid fa-satellite-dish"
-        keywords: "Kalman Filter, Extended Kalman Filter, Particle Filter, Radar-Camera Fusion"
+        keywords: 
+          - "Kalman Filter"
+          - "Extended Kalman Filter"
+          - "Particle Filter"
+          - "Radar-Camera Fusion"
 
       - name: "Simulation & Scenario Testing"
         level: "Advanced"
         icon: "fa-solid fa-microchip"
-        keywords: "SCANeR Studio, Closed-loop Virtual Simulation, Scenario-based Testing"
+        keywords: 
+          - "SCANeR Studio"
+          - "Closed-loop Virtual Simulation"
+          - "Scenario-based Testing"
 
       - name: "Programming"
         level: "Advanced"
         icon: "fa-solid fa-code"
-        keywords: "Python, C++, MATLAB"
+        keywords: 
+          - "Python"
+          - "C++"
+          - "MATLAB"
 
       - name: "Testing & Process"
         level: "Advanced"
         icon: "fa-solid fa-shield-heart"
-        keywords: "SIL, HIL, MIL, V-model / MBD lifecycle, ISO 26262, ASPICE"
+        keywords: 
+          - "SIL"
+          - "HIL"
+          - "MIL"
+          - "V-model / MBD lifecycle"
+          - "ISO 26262"
+          - "ASPICE"
 
     languages:
       - name: "English"
@@ -128,8 +152,16 @@ cv:
     interests:
       - name: "ADAS & Autonomous Systems"
         icon: "fa-solid fa-robot"
-        keywords: "Controls, validation, sensor fusion, virtual proving grounds" 
+        keywords: 
+          - "Controls"
+          - "validation"
+          - "sensor fusion"
+          - "virtual proving grounds"
 
       - name: "Nonlinear Systems"
         icon: "fa-solid fa-wave-square"
-        keywords: "Dynamics, estimation, optimization, simulation"
+        keywords: 
+          - "Dynamics"
+          - "estimation"
+          - "optimization"
+          - "simulation"
