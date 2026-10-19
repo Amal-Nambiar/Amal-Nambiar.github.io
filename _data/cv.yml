@@ -128,7 +128,7 @@ cv:
     interests:
       - name: "ADAS & Autonomous Systems"
         icon: "fa-solid fa-robot"
-        keywords: "Controls, validation, sensor fusion, virtual proving grounds"
+        keywords: "Controls, validation, sensor fusion, virtual proving grounds" 
 
       - name: "Nonlinear Systems"
         icon: "fa-solid fa-wave-square"
