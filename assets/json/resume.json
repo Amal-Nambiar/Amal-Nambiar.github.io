@@ -10,7 +10,7 @@
       "countryCode": "IN",
       "region": "Tamil Nadu"
     },
-    "summary": "Controls & Simulation Engineer with 4+ years of experience in ADAS validation, model-based control development, and closed-loop simulation for advanced automotive systems.",
+    "summary": "Controls & Simulation Engineer with 4+ years of experience validating and optimizing closed-loop ADAS systems for lane keeping, adaptive cruise control, and autonomous driving functions in MATLAB/Simulink and SCANeR Studio.",
     "profiles": [
       { "network": "LinkedIn", "username": "amal-nambiar", "url": "https://www.linkedin.com/in/amal-nambiar/" },
       { "network": "GitHub", "username": "Amal-Nambiar", "url": "https://github.com/Amal-Nambiar" }
@@ -23,12 +23,12 @@
       "location": "Chennai, Tamil Nadu, India",
       "startDate": "2022-08-01",
       "endDate": "Present",
-      "summary": "Leading ADAS validation and simulation engineering efforts for closed-loop system performance, calibration, and feature verification across autonomous driving functions.",
+      "summary": "Drive ADAS validation, simulation-based verification, and closed-loop performance engineering for next-generation vehicle intelligence systems.",
       "highlights": [
-        "Validated closed-loop ADAS behavior for Lane Keeping Assist and Adaptive Cruise Control using MATLAB/Simulink and Stateflow.",
-        "Built scenario-based simulation environments in SCANeR Studio to evaluate perception, control, and vehicle-level performance under realistic conditions.",
-        "Applied Kalman Filter, EKF, and Particle Filter techniques for radar-camera sensor fusion and state estimation.",
-        "Automated ISO 18571 signal correlation, KPI extraction, and reporting workflows using Python to improve validation efficiency."
+        "Developed and validated closed-loop ADAS logic for Lane Keeping Assist and Adaptive Cruise Control using MATLAB/Simulink and Stateflow.",
+        "Built scenario-based simulation frameworks in SCANeR Studio to assess perception, control, and vehicle-level behavior under realistic operating conditions.",
+        "Applied Kalman Filter, EKF, and Particle Filter methods for radar-camera sensor fusion and state estimation to improve signal quality and decision confidence.",
+        "Automated ISO 18571 signal correlation, KPI extraction, and reporting pipelines with Python to accelerate validation and reduce manual effort."
       ]
     },
     {
@@ -37,10 +37,10 @@
       "location": "Chennai, Tamil Nadu, India",
       "startDate": "2019-01-01",
       "endDate": "2022-06-30",
-      "summary": "Investigated nonlinear energy harvesting systems through modeling, numerical simulation, and system dynamics analysis.",
+      "summary": "Modeled nonlinear electromechanical systems and conducted advanced system dynamics research in energy harvesting and intelligent control applications.",
       "highlights": [
-        "Modeled nonlinear MEMS energy harvesting systems using time-series and phase-plane analysis.",
-        "Studied electromechanical coupling and optimization-driven behavior in dynamic energy conversion systems."
+        "Analyzed nonlinear MEMS energy harvesting systems using phase-plane and time-series methods to understand dynamic instability and energy conversion behavior.",
+        "Studied electromechanical coupling and optimization-driven parameter effects in nonlinear systems to improve modeling fidelity and design insight."
       ]
     }
   ],
@@ -72,8 +72,8 @@
   "skills": [
     { "name": "Path Planning & Localization", "keywords": ["Dijkstra", "A*", "RRT", "SLAM"] },
     { "name": "Control & Trajectory Tracking", "keywords": ["MATLAB/Simulink", "Stateflow", "PID", "MPC"] },
-    { "name": "State Estimation & Sensor Fusion", "keywords": ["Kalman Filter", "EKF", "Particle Filter"] },
-    { "name": "Simulation & Scenario Testing", "keywords": ["SCANeR Studio", "Closed-loop Simulation", "Scenario-based Testing"] },
+    { "name": "State Estimation & Sensor Fusion", "keywords": ["Kalman Filter", "EKF", "Particle Filter", "Radar-Camera Fusion"] },
+    { "name": "Simulation & Scenario Testing", "keywords": ["SCANeR Studio", "Closed-loop Simulation", "Scenario-based Validation"] },
     { "name": "Programming", "keywords": ["Python", "C++", "MATLAB"] }
   ],
   "languages": [
@@ -83,6 +83,7 @@
   ],
   "interests": [
     { "name": "ADAS & Autonomous Systems" },
-    { "name": "Nonlinear Systems" }
+    { "name": "Nonlinear Systems" },
+    { "name": "Simulation-Driven Engineering" }
   ]
 }
