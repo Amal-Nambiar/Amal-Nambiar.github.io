@@ -15,12 +15,13 @@ nav_order: 1
         <p class="lead">My work sits at the intersection of nonlinear dynamics, energy systems, and practical engineering design.</p>
         <p>
           I focus on how magnetic nonlinearity, fluid-structure interaction, and piezoelectric conversion can be used to build resilient, broadband energy harvesting systems for real-world environments.
-          <img src="{{ '/assets/IIT/FEA.gif' | relative_url }}" class="img-fluid rounded shadow-sm" alt="Energy Harvester simulated with FSI" />
         </p>
+        <img src="{{ '/assets/IIT/FEA.gif' | relative_url }}" class="img-fluid rounded shadow-sm d-block mx-auto" alt="Energy Harvester simulated with FSI" />
       </div>
     </div>
   </div>
 </div>
+
 
 <div class="row mt-4">
   <div class="col-sm-4">
@@ -86,10 +87,10 @@ The research demonstrates that magnetic nonlinearity can significantly broaden t
 <div class="row mt-4">
   <div class="col-sm-6 text-center">
     <img src="{{ '/assets/IIT/S_05.gif' | relative_url }}" class="img-fluid rounded shadow-sm" alt="Energy Harvester with Monostable behavior when axial gap between magnets is 0.5mm" />
-    <p class="mt-2"><small>Linear response</small></p>
+    <p class="mt-2"><small>Energy Harvester with Monostable behavior when axial gap between magnets is 0.5mm</small></p>
   </div>
   <div class="col-sm-6 text-center">
-    <img src="{{ '/assets/IIT/S_05.gif' | relative_url }}" class="img-fluid rounded shadow-sm" alt="Nonlinear bistable energy harvester response" />
+    <img src="{{ '/assets/IIT/S_03.gif' | relative_url }}" class="img-fluid rounded shadow-sm" alt="Nonlinear bistable energy harvester response" />
     <p class="mt-2"><small>Energy harvester with bistable response when axial gap between magnets is 0.3mm</small></p>
   </div>  
 </div>
