@@ -117,5 +117,5 @@ If you want, I can extract specific README sections or short code excerpts (Stan
 - Outputs: comparative steering, lateral error, and speed traces that reveal overshoot, settling, and tracking stability.
 - Tuning knobs: per-controller parameters (lookahead, gains, LQR weights, MPC horizon/weights), sampling frequency, vehicle model fidelity.
 
-Each GIF in `/assets/ADAS/` maps to a runner in `Visualization/` that reproduces the scenario and exports frames. If you want, I will add collapsible code snippets showing the Stanley controller core loop, MPC objective construction, and Hybrid A* neighbor expansion next.
+
 
