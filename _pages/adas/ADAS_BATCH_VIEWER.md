@@ -21,7 +21,7 @@ nav: false
     <p>Repository: <a href="https://github.com/Amal-Nambiar/ADAS_BATCH_VIEWER" target="_blank">ADAS_BATCH_VIEWER</a></p>
   </div>
   <div class="col-sm-4 text-center">
-    <img src="https://github.com/Amal-Nambiar/Amal-Nambiar.github.io/blob/main/assets/ADAS/AdasBatchViewer.png" class="img-fluid rounded shadow-sm" alt="repo avatar" />
+    <img src="{{ '/assets/ADAS/AdasBatchViewer.png' | relative_url }}" class="img-fluid rounded shadow-sm" alt="repo avatar" />
     <p class="mt-2"><small>ADAS Batch Viewer</small></p>
   </div>
 </div>
