@@ -90,7 +90,7 @@ The research demonstrates that magnetic nonlinearity can significantly broaden t
     <p class="mt-2"><small>Energy Harvester with Monostable behavior when axial gap between magnets is 0.5mm</small></p>
   </div>
   <div class="col-sm-6 text-center">
-    <img src="{{ '/assets/IIT/S_03.gif' | relative_url }}" class="img-fluid rounded shadow-sm" alt="Nonlinear bistable energy harvester response" />
+    <img src="{{ '/assets/IIT/S_0_3.gif' | relative_url }}" class="img-fluid rounded shadow-sm" alt="Nonlinear bistable energy harvester response" />
     <p class="mt-2"><small>Energy harvester with bistable response when axial gap between magnets is 0.3mm</small></p>
   </div>  
 </div>
